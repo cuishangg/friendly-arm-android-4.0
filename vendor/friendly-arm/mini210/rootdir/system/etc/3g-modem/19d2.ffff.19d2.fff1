@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ZTE AC8710
+# Many new ZTE devices use this sequence. There are
+# several ID combinations; check your default
+#
+
+DefaultVendor=  0x19d2
+DefaultProduct= 0xffff
+
+TargetVendor=   0x19d2
+TargetProduct=  0xfff1
+
+MessageContent="5553424312345678c00000008000069f010000000000000000000000000000"
+
+
+

@@ -1,0 +1,21 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Huawei U8110 (Android smartphone)
+#
+# Contributor: David Erosa García
+
+efaultVendor= 0x12d1
+efaultProduct=0x1031
+
+argetVendor=  0x12d1
+argetProduct= 0x1035
+
+CheckSuccess=20 
+
+MessageContent="55534243123456780600000080010a11060000000000000000000000000000"
+
+# for Android SDK
+NoDriverLoading=1
+
+

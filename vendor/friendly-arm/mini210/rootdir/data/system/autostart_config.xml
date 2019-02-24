@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appConfigs>
+<appConfig id="1">
+<packageName>com.friendlyarm.net3gdialup</packageName>
+<mainActivityName>com.friendlyarm.net3gdialup.ActivityMain</mainActivityName>
+<autoStart>false</autoStart>
+</appConfig>
+<appConfig id="2">
+<packageName>com.android.mms</packageName>
+<mainActivityName>com.android.mms.ui.ConversationList</mainActivityName>
+<autoStart>false</autoStart>
+</appConfig>
+</appConfigs>

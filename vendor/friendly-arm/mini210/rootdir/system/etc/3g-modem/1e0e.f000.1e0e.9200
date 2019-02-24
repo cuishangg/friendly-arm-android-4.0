@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# A-Link 3GU
+#
+# Contributor: A-Link Europe Ltd.
+
+DefaultVendor=  0x1e0e
+DefaultProduct= 0xf000
+
+TargetVendor=   0x1e0e
+TargetProduct=  0x9200
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+

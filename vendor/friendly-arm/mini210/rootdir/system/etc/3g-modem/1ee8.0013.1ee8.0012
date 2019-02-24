@@ -1,0 +1,19 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Onda MW833UP
+#
+# Contributor: Riccardo Sepe aka zeroidle
+
+efaultVendor= 0x1ee8
+efaultProduct=0x0013
+
+argetVendor=  0x1ee8
+argetProduct= 0x0012
+
+CheckSuccess=20
+
+MessageContent="555342431234567800000000000010ff000000000000000000000000000000"
+ResponseNeeded=1
+
+

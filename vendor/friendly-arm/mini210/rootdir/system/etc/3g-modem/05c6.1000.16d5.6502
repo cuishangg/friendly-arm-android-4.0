@@ -1,0 +1,21 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# AnyDATA ADU-500A, ADU-510A, ADU-510L, ADU-520A
+#
+# This ID gets an "Option" treatment by newer kernels.
+# Use module option "option_zero_cd=2" with usb-storage.
+# A kernel patch to fix the problem is pending
+#
+# Contributor: Vladimir Poluektov, Gabriel Smolar
+
+DefaultVendor=  0x05c6
+DefaultProduct= 0x1000
+
+TargetVendor=   0x16d5
+TargetProduct=  0x6502
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+NeedResponse=1
+
+

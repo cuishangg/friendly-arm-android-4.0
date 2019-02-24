@@ -1,0 +1,17 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Novatel U760 USB modem
+#
+# Contributor: Richard Laager
+
+DefaultVendor=  0x1410
+DefaultProduct= 0x5030
+
+TargetVendor=   0x1410
+TargetProduct=  0x6000
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+NeedResponse=1
+
+

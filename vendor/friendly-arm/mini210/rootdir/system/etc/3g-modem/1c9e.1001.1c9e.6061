@@ -1,0 +1,17 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Alcatel One Touch X020 (aka OT-X020, aka MBD-100HU, aka Nuton 3.5G), works with Emobile D11LC
+# Alcatel One Touch X030 (aka OT-X030, aka Nuton NT36HD)
+#
+# Contributor: Aleksandar Samardzic, Marcelo Fernandez
+
+DefaultVendor=  0x1c9e
+DefaultProduct= 0x1001
+
+TargetVendor=   0x1c9e
+TargetProduct=  0x6061
+
+MessageContent="55534243123456780000000000000606f50402527000000000000000000000"
+
+

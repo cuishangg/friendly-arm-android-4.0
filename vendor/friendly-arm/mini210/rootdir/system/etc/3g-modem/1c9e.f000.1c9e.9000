@@ -1,0 +1,35 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Samsung SGH-Z810 USB (with microSD card)
+#
+# This ID gets a wrong "Option" treatment by newer kernels
+# from 2.6.29 to 2.6.31
+# Use module option "option_zero_cd=2" with usb-storage.
+# Problem fixed in 2.6.32
+#
+# Contributor: A Friend
+
+DefaultVendor=  0x05c6
+DefaultProduct= 0x1000
+
+TargetVendor=   0x04e8
+TargetProduct=  0x6601
+
+MessageContent="55534243123456780000000000000616000000000000000000000000000000"
+
+
+######################################################## 
+# MobiData MBD-200HU
+#
+# Contributor: Stefan Olejnik
+
+DefaultVendor=  0x1c9e
+DefaultProduct= 0xf000
+
+TargetVendor=   0x1c9e
+TargetProduct=  0x9000
+
+MessageContent="55534243123456788000000080000606f50402527000000000000000000000"
+
+

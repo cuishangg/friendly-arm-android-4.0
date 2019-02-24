@@ -1,0 +1,18 @@
+#!/bin/bash
+
+CPU_JOB_NUM=$(grep processor /proc/cpuinfo | awk '{field=$NF};END{print field+1}')
+
+PRODUCT='full_mini210'
+
+source build/envsetup.sh
+
+TARGET_PRODUCT=$PRODUCT
+TARGET_SIMULATOR=false
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_VARIANT=eng
+
+export PATH TARGET_PRODUCT TARGET_SIMULATOR TARGET_BUILD_TYPE TARGET_BUILD_VARIANT
+
+COMBO4FA=${TARGET_PRODUCT}-${TARGET_BUILD_VARIANT}
+export PROMPT_COMMAND="echo -ne \"\033]0;[${COMBO4FA}] ${USER}@${HOSTNAME}: ${PWD}\007\""
+

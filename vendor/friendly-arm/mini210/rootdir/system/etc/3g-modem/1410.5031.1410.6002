@@ -1,0 +1,82 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ZTE K3520-Z
+#
+# Contributor: Paul McDermott
+
+DefaultVendor=  0x19d2
+DefaultProduct= 0x2000
+
+TargetVendor=   0x19d2
+TargetProduct=  0x0055
+
+MessageContent="5553424312345678000000000000061e000000000000000000000000000000"
+MessageContent2="5553424312345679000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+
+######################################################## 
+# MobiData MBD-200HU (aka 4G XS Stick W10/W14, aka Micromax MMX 300G,
+# aka ChinaBird CBCPL68)
+#
+# Contributor: Chris
+
+DefaultVendor=  0x1c9e
+DefaultProduct= 0xf000
+
+TargetVendor=   0x1c9e
+TargetProduct=  0x9603
+
+MessageContent="55534243123456788000000080000606f50402527000000000000000000000"
+
+
+######################################################## 
+# D-Link DWM-162-U5, Micromax MMX 300c
+#
+# Contributor: Zhang Le
+
+DefaultVendor=  0x05c6
+DefaultProduct= 0x2001
+
+TargetVendor=   0x1e0e
+TargetProduct=    0xce16
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+
+####################################################### 
+# D-Link DWM-162-U5, Micromax MMX 300c
+#
+# Contributor: Zhang Le
+
+DefaultVendor=  0x05c6
+DefaultProduct= 0x2001
+
+TargetVendor=   0x1e0e
+TargetProduct=    0xcefe
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+
+######################################################## 
+# Novatel MC760 3G
+#
+# Contributor: Matt Roberds
+
+DefaultVendor=  0x1410
+DefaultProduct= 0x5031
+
+TargetVendor=   0x1410
+TargetProduct=  0x6002
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+

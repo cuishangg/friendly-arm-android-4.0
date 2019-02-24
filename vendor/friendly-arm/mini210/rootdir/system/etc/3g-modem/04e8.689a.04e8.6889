@@ -1,0 +1,16 @@
+DisableSwitching=0
+EnableLogging=0
+#######################################################
+# Samsung GT-B3730
+#
+# Contributor: Per Øyvind Karlsen
+
+DefaultVendor= 0x04e8
+DefaultProduct=0x689a
+
+TargetVendor=  0x04e8
+TargetProduct= 0x6889
+
+MessageContent="55534243785634120100000080000601000000000000000000000000000000"
+
+

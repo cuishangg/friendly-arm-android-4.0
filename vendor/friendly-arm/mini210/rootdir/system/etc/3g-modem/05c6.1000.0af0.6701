@@ -1,0 +1,19 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Option GlobeTrotter EXPRESS 7.2 (aka "T-Mobile wnw Express II")
+#
+# Contributor: Fridtjof Busse
+
+DefaultVendor=  0x05c6
+DefaultProduct= 0x1000
+
+TargetVendor=   0x0af0
+TargetProduct=  0x6701
+
+MessageContent="55534243123456780000000000000601000000000000000000000000000000"
+
+# Response reading needed according to one (1) report
+NeedResponse=1
+
+

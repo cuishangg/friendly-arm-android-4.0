@@ -1,0 +1,19 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# C-motech D-50 (aka "CDU-680")
+#
+# Interesting notes about the device in the forum post at
+# http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?t=69
+#
+# Contributor: Alexander Czigler
+
+DefaultVendor=  0x16d8
+DefaultProduct= 0x6803
+
+TargetVendor=   0x16d8
+TargetProduct=  0x680a
+
+MessageContent="555342431234567824000000800008ff524445564348470000000000000000"
+
+

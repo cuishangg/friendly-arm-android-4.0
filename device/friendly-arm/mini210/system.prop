@@ -1,0 +1,40 @@
+
+#
+# system.prop for mini210
+#
+
+ro.sf.auto_lcd_density=yes
+
+# for HUAWEI EM310 GSM Modem
+# rild.libpath=/system/lib/libusb3gmodem-ril.so
+# rild.libargs=-d /dev/s3c2410_serial1
+
+#
+# auto switch CMOS and USB camera
+#
+# /system/lib/hw/camera.usb.so -> /system/lib/hw/camera.mini210.so
+# or
+# /system/lib/hw/camera.cmos.so -> /system/lib/hw/camera.mini210.so
+#
+
+ro.sf.auto_detect_camera=yes
+
+
+#
+# USB Camera Preview and Picture Size (for Logitech C270 webcam)
+#
+
+ro.kernel.android.cam_def_size=544x288
+
+#
+# USB Camera Supported Size (for Logitech C270 webcam)
+#
+
+ro.kernel.android.cam_s_sizes=1280x720,1184x656,960x720,960x544,864x480,800x448,640x480,544x288,352x288,320x176
+
+#
+# USB Camera Using YUY2 ColorSpace (Set to n will support more usb camera model)
+#
+
+ro.kernel.android.cam_yuy2=y
+

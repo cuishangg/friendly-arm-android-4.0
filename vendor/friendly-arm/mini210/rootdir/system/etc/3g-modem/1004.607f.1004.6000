@@ -1,0 +1,35 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# LG LUU-2100TI (aka AT&T USBConnect Turbo)
+#
+# Contributor: Chris Jager
+
+DefaultVendor=  0x1004
+DefaultProduct= 0x613f
+
+TargetVendor=   0x1004
+TargetProduct=  0x6141
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+
+######################################################## 
+# LG KP500 Cookie Phone  - UNTESTED! Please report!
+#
+# Contributor: Oliver Mattos
+
+DefaultVendor= 0x1004
+DefaultProduct=0x607f
+
+TargetVendor=  0x1004
+TargetProduct= 0x6000
+
+MessageContent="555342431234567803000000800006f1022000000000000000000000000000"
+MessageContent2="555342438765432103000000800006f1010100000000000000000000000000"
+
+NeedResponse=1
+
+

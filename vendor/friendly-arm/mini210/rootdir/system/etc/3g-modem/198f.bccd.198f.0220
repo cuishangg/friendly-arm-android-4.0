@@ -1,0 +1,16 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Beceem BCSM250
+#
+# Contributor: Alexander Gordeev
+
+DefaultVendor= 0x198f
+DefaultProduct=0xbccd
+
+TargetVendor=  0x198f
+TargetProduct= 0x0220
+
+MessageContent="555342431234567824000000800006bc626563240000000000000000000000"
+
+

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ ! -e "./jdk1.6.0_30" ]; then
+    tar xzf jdk1.6.0_30.tar.gz
+fi
+
+# if [ -e "../Android-2.2-apps/" ]; then
+#      cd ../Android-2.2-apps/
+#     ./apply_patch.sh
+#     cd -
+# fi
+
+export PATH=$PWD/jdk1.6.0_30/bin:$PATH
+. setenv
+make -j4 || exit 1
+
+# if [ -e "../Android-2.2-apps/" ]; then
+#      cd ../Android-2.2-apps/
+#      ./build-apps
+#      cd -
+# fi
+
+exit 0

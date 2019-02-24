@@ -1,0 +1,22 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# BandLuxe C120
+#
+# Reportedly needs several switch calls in a certain order. See
+# http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?t=71
+# This might be a case to try the new ResetUSB function
+#
+# Contributor: Alexander Czigler
+
+DefaultVendor=  0x1a8d
+DefaultProduct= 0x1000
+
+TargetVendor=   0x1a8d
+TargetProduct=  0x1002
+
+MessageContent="55534243123456781200000080000603000000020000000000000000000000"
+
+NeedResponse=1
+
+

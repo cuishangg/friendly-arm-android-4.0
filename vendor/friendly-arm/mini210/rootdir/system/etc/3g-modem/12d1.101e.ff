@@ -1,0 +1,15 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Huawei U7510 / U7517
+#
+# Contributor: Isaac Salgado
+
+DefaultVendor=  0x12d1
+DefaultProduct= 0x101e
+
+TargetClass=0xff
+
+MessageContent="55534243123456780600000080000601000000000000000000000000000000"
+
+

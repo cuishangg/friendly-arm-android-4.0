@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Nokia CS-10
+#
+# Contributor: Wacław Sierek
+
+efaultVendor= 0x0421
+efaultProduct=0x060c
+
+argetVendor=  0x0421
+argetProduct= 0x060e
+
+CheckSuccess=20
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+

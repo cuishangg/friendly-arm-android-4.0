@@ -1,0 +1,4 @@
+#!/bin/sh
+
+route del default
+exit 0

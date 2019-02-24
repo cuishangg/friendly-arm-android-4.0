@@ -1,0 +1,16 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Sony Ericsson MD400
+#
+# Special procedure, takes around 25 secs. on the whole
+
+DefaultVendor=  0x0fce
+DefaultProduct= 0xd0e1
+
+TargetClass=    0x02
+
+SonyMode=1
+Configuration=2
+
+

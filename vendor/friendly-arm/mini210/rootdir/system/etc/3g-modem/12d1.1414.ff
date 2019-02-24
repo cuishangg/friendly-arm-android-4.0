@@ -1,0 +1,15 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Huawei E180
+#
+# Contributor: Tom Dawahare
+
+DefaultVendor=  0x12d1
+DefaultProduct= 0x1414
+
+TargetClass=    0xff
+
+HuaweiMode=1
+
+

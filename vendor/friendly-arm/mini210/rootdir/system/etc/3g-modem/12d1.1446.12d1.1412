@@ -1,0 +1,17 @@
+DisableSwitching=0
+EnableLogging=0
+#######################################################
+# Huawei EC168C (from Zantel)
+#
+# Contributor: Åsmund Hjulstad
+
+DefaultVendor= 0x12d1
+DefaultProduct=0x1446
+
+TargetVendor=  0x12d1
+TargetProduct= 0x1412
+
+MessageContent="55534243123456780000000000000011060000000000000000000000000000"
+
+
+

@@ -1,0 +1,17 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Royaltek Q110 - UNCONFIRMED!
+
+DefaultVendor=  0x1266
+DefaultProduct= 0x1000
+
+TargetVendor=   0x1266
+TargetProduct=  0x1009
+
+MessageContent="5553424312345678000000000000061e000000000000000000000000000000"
+MessageContent2="5553424387654321000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+

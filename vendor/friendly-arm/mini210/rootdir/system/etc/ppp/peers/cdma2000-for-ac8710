@@ -1,0 +1,20 @@
+nodetach
+lock
+/dev/ttyUSB0
+921600
+user "ctnet@mycdma.cn"
+password "vnet.mobi"
+crtscts
+modem
+hide-password
+usepeerdns
+noauth
+noipdefault
+novj
+novjccomp
+noccp
+defaultroute
+ipcp-accept-local
+ipcp-accept-remote
+connect 'chat -s -v -f /etc/ppp/peers/chat-cdma2000-connect-for-ac8710'
+disconnect 'chat -s -v -f /etc/ppp/peers/chat-cdma2000-disconnect'

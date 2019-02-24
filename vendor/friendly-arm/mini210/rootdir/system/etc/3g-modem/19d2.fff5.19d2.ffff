@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ZTE AC2710 (EVDO) 
+#
+# Contributor: Wasim Baig
+
+DefaultVendor=  0x19d2
+DefaultProduct= 0xfff5
+
+TargetVendor=   0x19d2
+TargetProduct=  0xffff
+
+MessageContent="5553424312345678c00000008000069f010000000000000000000000000000"
+
+# Just for information: try it with the message from the AC8710 ...
+
+

@@ -1,0 +1,13 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Kyocera W06K CDMA modem
+#
+# Contributor: Ying-Hung Lo
+
+DefaultVendor= 0x0482
+DefaultProduct=0x024d
+
+Configuration=2
+
+

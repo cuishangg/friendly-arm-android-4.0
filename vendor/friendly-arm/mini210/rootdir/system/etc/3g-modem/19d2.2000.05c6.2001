@@ -1,0 +1,34 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ZTE MF628
+#
+# Captured with "usbmon". Has a micro SD slot which can be
+# activated alternatively
+#
+# Contributor: Alvaro Lopes <alvieboy at alvie dot com>
+
+DefaultVendor=  0x19d2
+DefaultProduct= 0x2000
+
+
+# To modem mode:
+
+TargetVendor=   0x19d2
+TargetProduct=  0x0015
+
+MessageContent="5553424312345678000000000000061e000000000000000000000000000000"
+MessageContent2="5553424312345679000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+# To SD slot mode:
+
+TargetVendor=   0x05c6
+TargetProduct=  0x2001
+
+MessageContent="55534243123456782000000080000a86010101180101010101000000000000"
+
+NeedResponse=1
+
+

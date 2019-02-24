@@ -1,0 +1,47 @@
+DisableSwitching=0
+EnableLogging=0
+#######################################################
+# Option GlobeTrotter HSUPA Modem (aka "T-Mobile Web'n'walk Card Compact III')
+#
+# New Firmware. HSO driver support is available at Pharscape (www.pharscape.org)
+#
+# Contributor: Gerold Gruber
+
+DefaultVendor=  0x0af0
+DefaultProduct= 0x7011
+
+TargetClass=    0xff
+
+MessageContent="55534243785634120100000080000601000000000000000000000000000000"
+
+
+###################################################### 
+# Option iCON 401
+#
+# HSO driver 
+#
+# Contributor: Vincent Teoh
+
+DefaultVendor=  0x0af0
+DefaultProduct= 0x7401
+
+TargetClass=    0xff
+
+MessageContent="55534243785634120100000080000601000000000000000000000000000000"
+
+NeedResponse=1
+
+
+######################################################## 
+# Vodafone K3760 (made by Option, HSO driver) 
+#
+# Contributor: The Solutor
+
+DefaultVendor=  0x0af0
+DefaultProduct= 0x7501
+
+TargetClass=    0xff
+
+MessageContent="55534243785634120100000080000601000000000000000000000000000000"
+
+

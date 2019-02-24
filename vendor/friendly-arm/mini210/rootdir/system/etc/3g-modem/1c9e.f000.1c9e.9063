@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ST Mobile Connect HSUPA USB Modem
+#
+# Use /dev/ttyUSB2 for connecting
+#
+# Contributor: Vincent Teoh
+
+DefaultVendor=  0x1c9e
+DefaultProduct= 0xf000
+
+TargetVendor=   0x1c9e
+TargetProduct=  0x9063
+
+MessageContent="55534243123456788000000080000606f50402527000000000000000000000"
+
+

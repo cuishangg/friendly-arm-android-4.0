@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Huawei R201
+#
+# Contributor: Betavine Project
+
+efaultVendor= 0x12d1
+efaultProduct=0x1523
+
+argetVendor=  0x12d1
+argetProduct= 0x1491
+
+CheckSuccess=20
+
+MessageContent="55534243123456780000000000000011060000000000000000000000000000"
+
+

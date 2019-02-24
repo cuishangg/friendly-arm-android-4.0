@@ -1,0 +1,20 @@
+DisableSwitching=0
+EnableLogging=0
+#######################################################
+# Olivetti Olicard 100 and others
+#
+# Contributor: Nils Radtke
+
+DefaultVendor=  0x0b3c
+DefaultProduct= 0xc700
+
+TargetVendor=   0x0b3c
+TargetProduct=   0xc001
+
+MessageContent="5553424312345678000000000000061b000000030000000000000000000000"
+
+NeedResponse=1
+
+
+
+

@@ -1,0 +1,24 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# ZTE MF622 (aka "Onda MDC502HS")
+# ZTE MF626
+# ZTE MF628+ (tested version from Telia / Sweden)
+# ZTE MF633
+# ZTE MF636 (aka "Telstra / BigPond 7.2 Mobile Card")
+# ZTE MF637
+#
+# Contributor: Joakim Wennergren and others
+
+DefaultVendor=  0x19d2
+DefaultProduct= 0x2000
+
+TargetVendor=   0x19d2
+TargetProduct=  0x0031
+
+MessageContent="5553424312345678000000000000061e000000000000000000000000000000"
+MessageContent2="5553424312345679000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+

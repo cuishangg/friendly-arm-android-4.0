@@ -1,0 +1,23 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Vodafone (ZTE) K3805-Z
+#
+# Contributor: Betavine Project
+#
+# Note:
+#   This device has multiple USB profiles. Depending upon how it is flipped
+#   from storage mode to modem mode determines its final PID and the packages
+#   shown on its ISO CD image.
+
+efaultVendor= 0x19d2
+efaultProduct=0x1001
+
+argetVendor=  0x19d2
+argetProduct= 0x1003
+
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
+

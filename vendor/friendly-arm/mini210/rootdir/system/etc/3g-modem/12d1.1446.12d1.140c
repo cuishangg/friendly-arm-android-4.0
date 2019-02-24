@@ -1,0 +1,18 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Huawei E1690
+# Huawei E1692
+# Huawei E1762
+#
+# Contributor: Carolin Latze and others
+
+DefaultVendor=  0x12d1
+DefaultProduct= 0x1446
+
+TargetVendor=   0x12d1
+TargetProduct=  0x140c
+
+MessageContent="55534243123456780000000000000011060000000000000000000000000000"
+
+

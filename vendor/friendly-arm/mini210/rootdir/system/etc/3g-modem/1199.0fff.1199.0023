@@ -1,0 +1,16 @@
+DisableSwitching=0
+EnableLogging=0
+########################################################
+# Sierra Wireless Compass 597
+#
+# Contributor: Vincent Teoh
+
+DefaultVendor=  0x1199
+DefaultProduct= 0x0fff
+
+TargetVendor=   0x1199
+TargetProduct=  0x0023
+
+SierraMode=1
+
+
