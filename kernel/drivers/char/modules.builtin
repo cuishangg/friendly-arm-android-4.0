@@ -1,0 +1,6 @@
+kernel/drivers/char/apm-emulation.ko
+kernel/drivers/char/mini210_leds.ko
+kernel/drivers/char/mini210_pwm.ko
+kernel/drivers/char/mini210_adc.ko
+kernel/drivers/char/mini210_backlight.ko
+kernel/drivers/char/hw_random/rng-core.ko

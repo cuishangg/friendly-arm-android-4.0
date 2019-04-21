@@ -1,0 +1,8 @@
+kernel/sound/soundcore.ko
+kernel/sound/core/snd.ko
+kernel/sound/core/snd-timer.ko
+kernel/sound/core/snd-pcm.ko
+kernel/sound/core/snd-page-alloc.ko
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/s5pv2xx/snd-soc-s5pv2xx.ko
+kernel/sound/soc/s5pv2xx/snd-soc-s5pc1xx-i2s.ko

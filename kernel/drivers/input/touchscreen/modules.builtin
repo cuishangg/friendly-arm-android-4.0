@@ -1,0 +1,2 @@
+kernel/drivers/input/touchscreen/mini210_1wire_host.ko
+kernel/drivers/input/touchscreen/ft5x06_ts.ko
